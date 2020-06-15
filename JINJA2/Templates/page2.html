@@ -1,0 +1,11 @@
+{% import 'dialog.html' as dlg %}
+{% include 'header.html' ignore missing %}
+<body>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+    A beatae deserunt dicta ducimus eaque facilis hic iste qui, quia similique.
+</p>
+{{ dlg.dialog_1('Внимаание','это тестовый диалог')}}
+</body>
+
+{% include 'footer.html' -%}
+
